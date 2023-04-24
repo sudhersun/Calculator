@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aliceblue;
+}
+.container {
+    background-color: aliceblue;
+     box-shadow: inset 5px 5px 12px #ffff,
+                        5px 5px 12px rgba(0, 0, 0, 0.142);
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+#input-box{
+   grid-column: span 4;
+   height: 50px;
+   width: 260px;
+   background-color: aliceblue;
+   box-shadow: inset 12px 12px 12px #0000000c,
+                    5px 5px 12px rgb(255, 255, 255);
+    font-size: 32px;
+    border: none;
+    border-radius: 10px;
+    text-align: end;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 0 10px ;
+}
+
+.numbers{
+        display: grid;
+        grid-template-columns: repeat(4,70px);
+        border: 1px solid #eee;
+}
+.numbers>button{
+    height: 58px;
+    width: 58px;
+    background-color: #ffff;
+    box-shadow: inset 5px 5px 12px #efefef89,
+                    5px 5px 12px rgba(0, 0, 0, 0.068);
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+    margin: 8px;
+    cursor: pointer;
+}
+#result{
+    width: 130px;
+    border-radius: 10%;
+    font-size: 52px;
+}
